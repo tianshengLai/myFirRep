@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+input{
+    outline: none;
+    border: 0;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px solid #8395a7;
+    border-radius: 10px;
+    margin-top: 20px;
+    /* margin-top:100px; */
+}
+.container .top{
+    width: 500px;
+    height: 100px;
+   
+}
+.container .top p{
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    font-size: 39px;
+    font-family: sans-serif;
+    color: #57606f;
+    text-align:center;
+}
+.container .user{
+    height: 50px;
+
+}
+.container .user p{
+    line-height: 50px;
+    padding-left: 20%;
+}
+.container .user_input{
+    height: 50px;
+  
+}
+.container .user_input input{
+    height: 40px;
+    width: 250px;
+    vertical-align: middle;
+    margin-left: 125px;
+    margin-top: 2.5px;
+    border-radius: 5px;
+    opacity: .8;
+    /* margin: 0 auto; */
+    /* border-radius: 40px; */
+}
+.container .forget{
+    height: 15px;
+ 
+}
+.container .forget p{
+    text-align: right;
+    line-height: 15px;
+    font-size: 12px;
+    padding-right: 70px;
+}
+.btn{
+    height: 50px;
+    margin-top: 80px;
+   
+
+}
+.btn input{
+    border:0;
+    margin-left: 100px;
+    width: 300px;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow:0px 3px 3px #c8c8c8 ;
+    background:-webkit-linear-gradient(left,#00dbde, #fc00ff);
+    font-size: 22px;
+    margin-top: 5px;
+}
+.btn input:hover{
+    cursor: pointer;
+    background:-webkit-linear-gradient(right, #00dbde, #fc00ff);
+   
+}
+input:focus{
+    outline: none;
+}
+.register{
+    height: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+a{
+    color: blue;
+}
+a:hover{
+    color:#5f27cd;
+}

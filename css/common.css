@@ -1,0 +1,27 @@
+@charset "utf-8";
+html{
+    font:12px "宋体"
+}
+a{
+    color:#000;
+}
+a:hover{
+    color:#54a0ff;
+}
+.fl{
+    /* 左浮动公共样式 */
+    float: left;
+}
+.fr{
+    /* 右浮动公共样式 */
+    float: right;
+}
+
+.clearfix{
+    zoom: 1; 
+}
+.clearfix:after{
+    display:block;
+    content:'';
+    clear:both;
+}
